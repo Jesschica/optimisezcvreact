@@ -25,6 +25,24 @@ header {
 /*Partie FOOTER */
 
 footer {
-    background-color: #444;
-    color: white; 
+    background-color: #EEE; 
+}
+
+.col-md-3{
+  text-align: left;
+}
+
+.copyright {
+  background-color: #444;
+  color:#EEE;
+  padding: 10px;
+}
+
+.bi-chevron-right {
+  color: #0d6efd;
+
+}
+.ft-link {
+  color: #000000;
+  text-decoration: none;
 }

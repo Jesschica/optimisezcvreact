@@ -95,8 +95,8 @@ function Footer() {
             </li>
           </ul>
         </div>
+        <div className="copyright mt-3">© Designed by John Doe.</div>
       </div>
-      <div className="copyright mt-3">© Designed by john Doe.</div>
     </footer>
   );
 }
