@@ -1,0 +1,30 @@
+/*Partie HEADER */
+
+header {
+    color: white;
+}
+
+.navbar {
+    background-color: #444; /* Couleur de fond du header */
+    padding-top: 30rem;
+  }
+  
+  .navbar-brand {
+    font-weight: 600; /* Personnalisation du logo textuel */
+  }
+  
+  .nav-link {
+    color: #eee !important; /* Couleur des liens */
+    text-transform: uppercase;
+  }
+  
+  .nav-link:hover {
+    color: white !important; /* Effet au survol */
+  }
+
+/*Partie FOOTER */
+
+footer {
+    background-color: #444;
+    color: white; 
+}

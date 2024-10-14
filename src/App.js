@@ -8,11 +8,12 @@ import Services from './pages/Services';
 import Realisations from './pages/Realisations';
 import Blog from './pages/Blog';
 import Contact from './pages/Contact';
+import Header from './components/Header';
 
 function App() {
   return (
     <div>
-      
+      <Header />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/Services" element={<Services />} />
