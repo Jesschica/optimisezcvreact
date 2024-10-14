@@ -1,5 +1,8 @@
 import React from 'react';
 
+import Header from './components/Header';
+import Footer from './components/Footer';
+
 import {BrowserRouter} from 'react-router-dom';
 import {Routes, Route} from"react-router-dom"
 
@@ -8,7 +11,7 @@ import Services from './pages/Services';
 import Realisations from './pages/Realisations';
 import Blog from './pages/Blog';
 import Contact from './pages/Contact';
-import Header from './components/Header';
+
 
 function App() {
   return (
@@ -21,7 +24,7 @@ function App() {
         <Route path="/Blog" element={<Blog />} />
         <Route path="/Contact" element={<Contact />} />
       </Routes>
-      
+      <Footer />
     </div>
   );
 }
